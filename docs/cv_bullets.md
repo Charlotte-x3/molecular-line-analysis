@@ -8,7 +8,16 @@
 
 ## Research Portfolio Description
 
-Created a modular Python research portfolio project, "From Molecular Line Datacubes to Physical Conditions," demonstrating an end-to-end molecular astrophysics analysis workflow. The project reads spectral-line FITS cubes, extracts pixel and region spectra, generates moment maps, identifies molecular transitions, fits Gaussian emission lines, and builds an LTE rotational diagram from a same-species synthetic multi-transition dataset. The workflow is fully reproducible without large external data files and explicitly documents assumptions such as LTE, optically thin emission, beam filling, and the same-species requirement. It is designed as a foundation for extension toward RADEX-style non-LTE modelling of gas density, kinetic temperature, and column density.
+Created a modular Python research portfolio project, "From Molecular Line
+Datacubes to Physical Conditions," demonstrating a staged molecular
+astrophysics analysis workflow. The project reads a synthetic spectral-line
+FITS cube, extracts pixel and region spectra, generates moment maps, identifies
+a molecular transition, and fits a Gaussian emission line. A separate
+same-species synthetic multi-transition dataset demonstrates LTE
+rotational-diagram fitting. The workflow is reproducible without large external
+data files and explicitly documents assumptions such as LTE, optically thin
+emission, beam filling, and the same-species requirement. RADEX-style non-LTE
+modelling remains a planned extension and is not implemented.
 
 ## GitHub README Tagline
 

@@ -1,11 +1,12 @@
-"""Command-line entry point for the project skeleton."""
+"""Command-line status entry point for the project."""
 
 
 def main() -> None:
-    """Print the current project status."""
+    """Print the current project scope and supported interface."""
     print(
-        "molecular-line-conditions: repository skeleton is ready. "
-        "See README.md for the planned molecular-line analysis workflow."
+        "molecular-line-conditions: synthetic datacube and LTE analysis tools. "
+        "See README.md for the notebook workflow; non-LTE modelling is not "
+        "implemented."
     )
 
 

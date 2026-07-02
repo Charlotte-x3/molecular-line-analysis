@@ -1,5 +1,6 @@
 .venv/
 .venv*/
+ha/
 __pycache__/
 *.py[cod]
 *.pyc
@@ -25,6 +26,9 @@ figures/*
 !data/demo/.gitkeep
 !results/.gitkeep
 !figures/.gitkeep
+!figures/synthetic_moment_maps.png
+!figures/synthetic_gaussian_line_fit.png
+!figures/synthetic_rotational_diagram.png
 !data/README.md
 !results/README.md
 !figures/README.md

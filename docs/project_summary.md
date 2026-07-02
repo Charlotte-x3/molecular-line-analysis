@@ -4,7 +4,11 @@
 
 Millimeter and submillimeter molecular-line observations are a standard way to study cold interstellar gas, dense cores, molecular clouds, and star-forming regions. A spectral-line datacube contains both spatial and velocity information, but turning that cube into physical conditions requires a reproducible analysis chain: inspect the FITS/WCS metadata, extract spectra, identify transitions, measure line intensities, and interpret the results with excitation models.
 
-This project is a compact astronomy research portfolio workflow showing that chain in Python. It uses synthetic demonstration data so the repository can be run without internet access or large telescope files, while keeping the analysis structure close to what would be used on real public molecular-line observations.
+This self-directed computational astronomy project is a compact research
+portfolio workflow showing that chain in Python. It uses synthetic
+demonstration data so the repository can be run without internet access or
+large telescope files, while keeping the analysis structure close to what
+would be used on real public molecular-line observations.
 
 ## Workflow
 
@@ -14,7 +18,13 @@ The completed workflow currently runs from datacube handling through LTE rotatio
 2. Load the cube with `spectral-cube`, summarize metadata, extract pixel and rectangular-region spectra, estimate RMS noise, and create moment maps.
 3. Load a local molecular transition catalog and match the synthetic cube rest frequency to CO J=1-0.
 4. Fit a single Gaussian line profile with a constant baseline and record amplitude, centroid velocity, linewidth, FWHM, integrated intensity, uncertainties, and unit metadata.
-5. Build an LTE rotational diagram from a separate same-species synthetic multi-transition table, convert integrated intensities into upper-state column densities, and fit the rotational temperature.
+5. Build an LTE rotational diagram from a separate same-species synthetic
+   multi-transition table, convert integrated intensities into upper-state
+   column densities, and fit the rotational temperature.
+
+The Gaussian-fitting demonstration uses the synthetic CO cube, whereas the LTE
+rotational diagram uses an independent `DemoMol` table. These stages are not
+yet connected as one automated end-to-end measurement pipeline.
 
 ## Key Synthetic Results
 
@@ -36,4 +46,8 @@ The current synthetic workflow does not model optical depth corrections, beam di
 
 ## Future Extension
 
-The next planned milestone is a RADEX-style non-LTE grid-comparison interface. That extension will compare observed or synthetic line intensities and ratios against model grids in kinetic temperature, gas density, and column density. This will connect the LTE analysis to a more realistic excitation framework for subthermal gas and density-sensitive molecular tracers.
+A RADEX-style non-LTE grid-comparison interface is planned but not implemented.
+The existing `radex_grid.py` module contains placeholder interfaces only. A
+future implementation could compare observed or synthetic line intensities and
+ratios against model grids in kinetic temperature, gas density, and column
+density.

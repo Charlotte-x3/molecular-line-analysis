@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "molecular-line-conditions"
 version = "0.1.0"
-description = "LTE and non-LTE molecular-line datacube analysis workflow for interstellar gas."
+description = "Synthetic molecular-line datacube analysis and LTE rotational-diagram workflow."
 readme = "README.md"
 requires-python = ">=3.10,<3.14"
 authors = [

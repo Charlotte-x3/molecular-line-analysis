@@ -1,7 +1,8 @@
-"""Molecular-line datacube analysis tools.
+"""Synthetic molecular-line datacube and LTE analysis tools.
 
-This package is currently an initial project skeleton. Scientific
-implementations will be added in later milestones.
+The package supports the repository's staged datacube, spectral-fitting, and
+LTE rotational-diagram demonstrations. Non-LTE model-grid analysis is not yet
+implemented.
 """
 
 __all__ = [
