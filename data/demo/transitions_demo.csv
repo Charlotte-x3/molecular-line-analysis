@@ -1,0 +1,6 @@
+species,quantum_numbers,rest_frequency_ghz,upper_energy_k,einstein_a_s,degeneracy_upper
+CO,J=1-0,115.2712018,5.53,7.203e-8,3
+13CO,J=1-0,110.2013543,5.29,6.335e-8,3
+C18O,J=1-0,109.7821734,5.27,6.266e-8,3
+HCN,J=1-0,88.6318470,4.25,2.407e-5,3
+HCO+,J=1-0,89.1885250,4.28,4.252e-5,3

@@ -1,0 +1,10 @@
+# Synthetic DemoMol LTE line measurements generated for a portfolio workflow.
+# These are not real molecular database values or telescope measurements.
+# The intensities were generated from a true T_rot near 38 K with small noise.
+species,transition,rest_frequency_ghz,upper_energy_k,einstein_a_s,degeneracy_upper,integrated_intensity_K_km_s,integrated_intensity_error_K_km_s
+DemoMol,1_1-0_0,96.741000,7.00,3.100000e-06,3,3.832375,0.306590
+DemoMol,2_1-1_0,145.102000,14.00,8.400000e-06,5,6.026172,0.482094
+DemoMol,3_2-2_1,193.456000,25.00,1.700000e-05,7,7.784350,0.622748
+DemoMol,4_2-3_1,241.700000,39.00,2.900000e-05,9,6.774267,0.541941
+DemoMol,5_3-4_2,290.114000,56.00,4.400000e-05,11,6.048752,0.483900
+DemoMol,6_3-5_2,338.409000,78.00,6.300000e-05,13,3.968216,0.317457
